@@ -45,14 +45,16 @@
 .body {
   background: linear-gradient(#d6d6d6,white,white,white,white);
 /*take out height later*/
-  height:400px;
+  /*height:400px;*/
 }
 
 /*Sidebar*/
 
 .sidebar {
   width: 200px;
+  margin-right:40px;
   position:relative;
+  display:inline-block;
 }
 
 .sidebar h1 {
@@ -146,4 +148,72 @@
 
 .karat2 {
   opacity: .75;
+}
+
+/*content*/
+
+.content {
+  /*border: 1px solid black;*/
+  display:inline-block;
+  vertical-align: top;
+  width: 723px;
+  position: relative;
+}
+
+.content-top-bar {
+  width:100%;
+}
+
+.left-side {
+  display:inline-block;
+}
+
+.home-icon {
+  max-height: 20px;
+  padding-top:10px;
+}
+
+.right-side {
+  display:inline-block;
+}
+
+.content div div p {
+  font-size: .25em;
+}
+
+.content div div h1 {
+  margin:0px;
+  font-size:1.2em;
+}
+.phone-box {
+  display:inline-block;
+  position:absolute;
+  right:0px;
+
+}
+.phone-icon {
+  padding-top:10px;
+  max-height: 35px;
+  display:inline-block;
+}
+
+.lt-blue-text {
+  color: #4e9ef4;
+}
+
+.drk-blue-text {
+  color: #2b64a0;
+}
+
+.content-top-bar hr {
+  margin-top:30px;
+}
+
+.main-content h1 {
+  margin:5px 0px 5px 0px;
+  font-size: 1em;
+}
+
+.main-content p {
+  font-size: .9em;
 }
