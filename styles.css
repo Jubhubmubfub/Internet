@@ -33,9 +33,110 @@
   font-weight: lighter;
   font-size: 2em;
   color: white;
-  background: linear-gradient(#465d82, #4f70a5, #465d82);
+  background: linear-gradient(#5375ad, #7ba2e0, #5375ad);
 }
 
 .header span {
-  color: #465d82;
+  color: #5375ad;
+}
+
+/*body*/
+
+.body {
+  background: linear-gradient(#d6d6d6,white,white,white,white);
+/*take out height later*/
+  height:400px;
+}
+
+/*Sidebar*/
+
+.sidebar {
+  width: 200px;
+  position:relative;
+}
+
+.sidebar h1 {
+  margin-top:0px;
+  padding-top:20px;
+  margin-left:5px;
+  font-size: 1em;
+}
+.sidebar span {
+  color:red;
+}
+
+.sidebar p {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: .9em;
+  margin-bottom:20px;
+}
+
+.sidebar p span {
+  color:#5375ad;
+}
+
+.box {
+  color:white;
+  display: inline-block;
+  width:95%;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  padding: 5px 0px;
+  margin: 0px 5px 3px 5px;
+  box-shadow: 1px 1px 2px black;
+}
+
+.blue-box {
+  background: linear-gradient(#7ba2e0, #264b8e);
+}
+
+.orange-box {
+  background: linear-gradient(#f2a348, #bf7016);
+}
+
+.sidebar hr {
+  margin: 20px 2px;
+}
+
+.adbackground {
+  background-image: url(images/ad_background.png);
+  width:100%;
+  box-shadow: 1px 1px 2px black;
+  text-align:center;
+  color:white;
+}
+
+.adbackground h1 {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+.adbackground img {
+  max-width: 100px;
+}
+
+.adbackground span {
+  color:white;
+}
+
+.adbackground h2 {
+  width: 85%;
+  font-size: .85em;
+  margin-bottom: 30px;
+}
+
+.light-blue {
+  border:1px solid black;
+  background: linear-gradient(#aff1ff, #3e96a8, #7ae4f9)
+}
+
+.karat1 {
+  opacity: .5;
+}
+
+.karat2 {
+  opacity: .75;
 }
